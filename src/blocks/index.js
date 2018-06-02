@@ -5,7 +5,6 @@ import Service from './Service';
 import Project from './Project';
 import Director from './Director';
 import Guarantee from './Guarantee';
-import Testimonial from './Testimonial';
 import Contact from './Contact';
 
 export {
@@ -16,6 +15,5 @@ export {
   Project,
   Director,
   Guarantee,
-  Testimonial,
   Contact,
 };
