@@ -7,7 +7,7 @@ class Director extends React.PureComponent {
         <div className="container">
           <div className="row">
             <div className="col-md-6 title">
-              Diretctor
+              Director
             </div>
             <div className="col-md-6 text padding">
               <div className="sub-title">Eddy Scheruga</div>
