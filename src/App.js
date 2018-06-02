@@ -9,7 +9,6 @@ import {
   Project,
   Director,
   Guarantee,
-  Testimonial,
   Contact,
 } from './blocks';
 
@@ -24,7 +23,6 @@ class App extends Component {
         <Project />
         <Director />
         <Guarantee />
-        <Testimonial />
         <Contact />
         <footer>
           ©2018 Scheracon Victoria, Australia

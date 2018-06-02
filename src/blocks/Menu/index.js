@@ -32,7 +32,6 @@ class Menu extends React.PureComponent {
           <li><AnchorLink href="#project">Projects</AnchorLink></li>
           <li><AnchorLink href="#director">Directors</AnchorLink></li>
           <li><AnchorLink href="#guarantee">Guarantee</AnchorLink></li>
-          <li><AnchorLink href="#testimonial">Testimonials</AnchorLink></li>
           <li><AnchorLink href="#contact">Contact</AnchorLink></li>
         </ul>
       </div>
