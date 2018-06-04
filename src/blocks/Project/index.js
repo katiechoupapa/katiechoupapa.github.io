@@ -1,7 +1,29 @@
 import React from 'react';
 import Slider from "react-slick";
 
+const getImageHeight = () => {
+  return window.innerHeight - document.getElementsByClassName('menu')[0].clientHeight;
+}
+
 class Project extends React.PureComponent {
+  constructor() {
+    super();
+    this.state = {
+      height: 0,
+    }
+  }
+  componentDidMount() {
+    window.addEventListener('resize', this.autoFit);
+    this.autoFit();
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.autoFit);
+  }
+  autoFit = () => {
+    this.setState({
+      height: getImageHeight()
+    });
+  }
   render () {
     var settings = {
       infinite: true,
@@ -17,7 +39,9 @@ class Project extends React.PureComponent {
         <div className="container">
           <Slider className="cover-flow" {...settings}>
             {Array(17).fill(null).map(i =>
-              <div key={i}><div className="img" /></div>
+              <div key={i}>
+                <div className="img" style={{ height: `${this.state.height}px` }} />
+              </div>
             )}
           </Slider>
         </div>
