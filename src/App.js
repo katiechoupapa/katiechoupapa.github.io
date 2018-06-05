@@ -7,6 +7,7 @@ import {
   About,
   Service,
   Project,
+  Proposed,
   Director,
   Guarantee,
   Contact,
@@ -21,6 +22,7 @@ class App extends Component {
         <About />
         <Service />
         <Project />
+        <Proposed />
         <Director />
         <Guarantee />
         <Contact />
