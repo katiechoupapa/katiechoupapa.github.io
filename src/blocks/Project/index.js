@@ -3,14 +3,14 @@ import Slider from "react-slick";
 
 const getImageHeight = () => {
   return window.innerHeight - document.getElementsByClassName('menu')[0].clientHeight;
-}
+};
 
 class Project extends React.PureComponent {
   constructor() {
     super();
     this.state = {
       height: 0,
-    }
+    };
   }
   componentDidMount() {
     window.addEventListener('resize', this.autoFit);
@@ -38,7 +38,7 @@ class Project extends React.PureComponent {
         <div className="sub-title">Build in Luxury and Reliable</div>
         <div className="container">
           <Slider className="cover-flow" {...settings}>
-            {Array(17).fill(null).map(i =>
+            {Array(10).fill(null).map(i =>
               <div key={i}>
                 <div className="img" style={{ height: `${this.state.height}px` }} />
               </div>
