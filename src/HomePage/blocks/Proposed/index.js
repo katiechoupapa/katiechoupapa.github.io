@@ -7,7 +7,7 @@ import {
 class Proposed extends React.Component {
   render () {
     return (
-      <div className="block proposed-block">
+      <div id="proposed" className="block proposed-block">
         <div className="container">
           <div className="sub-title">PROPOSED DEVELOPMENT</div>
           <Link className="img" to="/at-albans-victoria">
