@@ -1,5 +1,6 @@
 import cx from 'classnames';
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Menu extends React.PureComponent {
@@ -14,7 +15,11 @@ class Menu extends React.PureComponent {
       open: !this.state.open
     });
   }
+  directToHome = () => {
+    this.props.history.push("/");
+  }
   render () {
+    const event = { onMouseUp: this.directToHome };
     const { open } = this.state;
     return (
       <div className="menu">
@@ -27,16 +32,16 @@ class Menu extends React.PureComponent {
           <div className="bar" />
         </div>
         <ul>
-          <li><AnchorLink href="#about">About</AnchorLink></li>
-          <li><AnchorLink href="#service">Service</AnchorLink></li>
-          <li><AnchorLink href="#project">Projects</AnchorLink></li>
-          <li><AnchorLink href="#director">Director</AnchorLink></li>
-          <li><AnchorLink href="#guarantee">Guarantee</AnchorLink></li>
-          <li><AnchorLink href="#contact">Contact</AnchorLink></li>
+          <li><AnchorLink {...event} href="#about">About</AnchorLink></li>
+          <li><AnchorLink {...event} href="#service">Service</AnchorLink></li>
+          <li><AnchorLink {...event} href="#project">Projects</AnchorLink></li>
+          <li><AnchorLink {...event} href="#director">Director</AnchorLink></li>
+          <li><AnchorLink {...event} href="#guarantee">Guarantee</AnchorLink></li>
+          <li><AnchorLink {...event} href="#contact">Contact</AnchorLink></li>
         </ul>
       </div>
     );
   }
 }
 
-export default Menu;
+export default withRouter(Menu);

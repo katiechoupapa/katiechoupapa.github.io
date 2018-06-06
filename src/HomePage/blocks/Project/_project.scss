@@ -30,13 +30,13 @@ $image-list: (
     }
     @for $i from 1 through length($image-list) {
       div:nth-of-type(#{$i}) .img {
-        background-image: url('./blocks/Project/images/#{nth($image-list, $i)}');
+        background-image: url('./HomePage/blocks/Project/images/#{nth($image-list, $i)}');
       }
     }
     .slick-arrow {
       width: 135px;
       height: 256px;
-      background-image: url('./blocks/Project/images/Arrow@2x.png');
+      background-image: url('./HomePage/blocks/Project/images/Arrow@2x.png');
       @include image;
       z-index: 1;
       position: absolute;

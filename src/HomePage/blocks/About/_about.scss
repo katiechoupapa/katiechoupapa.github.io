@@ -13,7 +13,7 @@
     background-color: $skin-color;
     &:before {
       content: '';
-      background-image: url("./blocks/About/images/BG_03.png");
+      background-image: url("./HomePage/blocks/About/images/BG_03.png");
       @include image;
       width: 50%;
       height: 100%;

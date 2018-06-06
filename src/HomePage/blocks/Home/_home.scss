@@ -23,7 +23,7 @@ $image-list: (
     @for $i from 1 through length($image-list) {
       div:nth-of-type(#{$i}) .img {
         @include image;
-        background-image: url('./blocks/Home/images/#{nth($image-list, $i)}');
+        background-image: url('./HomePage/blocks/Home/images/#{nth($image-list, $i)}');
       }
     }
     .slick-dots {
@@ -41,7 +41,7 @@ $image-list: (
   .logo {
     width: 270px;
     height: 273px;
-    background-image: url("./blocks/Home/logo.png");
+    background-image: url("./HomePage/blocks/Home/logo.png");
     margin-bottom: 50px;
     position: absolute;
     top: 140px;

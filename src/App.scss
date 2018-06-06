@@ -29,6 +29,7 @@ html, body {
     }
   }
   .sub-title {
+    color: #000;
     font-size: 50px;
   }
   .text {
@@ -44,15 +45,16 @@ html, body {
     font-size: 30px;
   }
 
-  @import "./blocks/Menu/menu";
-  @import "./blocks/Home/home";
-  @import "./blocks/About/about";
-  @import "./blocks/Service/service";
-  @import "./blocks/Project/project";
-  @import "./blocks/Proposed/proposed";
-  @import "./blocks/Director/director";
-  @import "./blocks/Guarantee/guarantee";
-  @import "./blocks/Contact/contact";
+  @import "./Menu/menu";
+  @import "./HomePage/blocks/Home/home";
+  @import "./HomePage/blocks/About/about";
+  @import "./HomePage/blocks/Service/service";
+  @import "./HomePage/blocks/Project/project";
+  @import "./HomePage/blocks/Proposed/proposed";
+  @import "./HomePage/blocks/Director/director";
+  @import "./HomePage/blocks/Guarantee/guarantee";
+  @import "./HomePage/blocks/Contact/contact";
+  @import "./StAlbansVictoriaPage/at-albans-victoria-page";
 
   footer {
     text-align: center;

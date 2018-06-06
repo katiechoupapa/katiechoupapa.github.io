@@ -1,7 +1,7 @@
 .contact-block {
   padding: 130px 0 110px;
   color: $skin-color;
-  background-image: url("./blocks/Contact/images/BG_05.png");
+  background-image: url("./HomePage/blocks/Contact/images/BG_05.png");
   @include image;
   img {
     width: 80px;
@@ -41,10 +41,10 @@
       margin-right: 25px;
     }
     li.mobile:before {
-      background-image: url("./blocks/Contact/images/Icon_phone@2x.png");
+      background-image: url("./HomePage/blocks/Contact/images/Icon_phone@2x.png");
     }
     li.email:before {
-      background-image: url("./blocks/Contact/images/Icon_mail@2x.png");
+      background-image: url("./HomePage/blocks/Contact/images/Icon_mail@2x.png");
     }
   }
   form {

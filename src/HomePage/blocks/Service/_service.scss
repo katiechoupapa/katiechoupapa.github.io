@@ -18,13 +18,13 @@
       position: relative;
       @include image;
       &.partnerships {
-        background-image: url("./blocks/Service/images/partnerships.png");
+        background-image: url("./HomePage/blocks/Service/images/partnerships.png");
       }
       &.immigration-assistance {
-        background-image: url("./blocks/Service/images/immigration-assistance.png");
+        background-image: url("./HomePage/blocks/Service/images/immigration-assistance.png");
       }
       &.property-development {
-        background-image: url("./blocks/Service/images/property-development.png");
+        background-image: url("./HomePage/blocks/Service/images/property-development.png");
       }
       &:hover {
         background-image: none;

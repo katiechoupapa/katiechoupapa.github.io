@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  Link,
+} from 'react-router-dom';
 
 class Proposed extends React.Component {
   render () {
@@ -7,12 +10,12 @@ class Proposed extends React.Component {
       <div className="block proposed-block">
         <div className="container">
           <div className="sub-title">PROPOSED DEVELOPMENT</div>
-          <a className="img" href="#">
+          <Link className="img" to="/at-albans-victoria">
             <div>
               <div className="st">St. Albans</div>
               <div className="area">Victoria</div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     );
