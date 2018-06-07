@@ -35,9 +35,9 @@ class StAlbansVictoria extends React.Component {
         </div>
         <div className="block link-block">
           <ul>
-            <li><a href="https://drive.google.com/open?id=11a1xqGLSMBs1TibMgZJtEsbDhNxUKOXz" className="link">Financial Summary</a></li>
-            <li><a href="https://drive.google.com/open?id=12rlOpkAcTupV2gq5vlfup_zUtLDWwH1Z" className="link">Plans & Details</a></li>
-            <li><a href="https://drive.google.com/open?id=1brXg3G0DQCvdogilNJIvRLDI66P1AZM1" className="link">中文版简报</a></li>
+            <li><a target="_blank" href="https://drive.google.com/open?id=11a1xqGLSMBs1TibMgZJtEsbDhNxUKOXz" className="link">Financial Summary</a></li>
+            <li><a target="_blank" href="https://drive.google.com/open?id=12rlOpkAcTupV2gq5vlfup_zUtLDWwH1Z" className="link">Plans & Details</a></li>
+            <li><a target="_blank" href="https://drive.google.com/open?id=1brXg3G0DQCvdogilNJIvRLDI66P1AZM1" className="link">中文版简报</a></li>
           </ul>
         </div>
       </div>
