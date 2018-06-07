@@ -9,7 +9,7 @@ class Guarantee extends React.PureComponent {
     return (
       <div id="guarantee" className="block guarantee-block">
         <div className="container">
-          <div className="sub-title">Quality Certificated</div>
+          <div className="sub-title">Quality Certificate</div>
           <div className="row">
             <div className="col-md-3" style={{backgroundImage: `url(${master})`}} />
             <div className="col-md-3" style={{backgroundImage: `url(${registered})`}} />
