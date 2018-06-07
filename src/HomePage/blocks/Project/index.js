@@ -38,7 +38,7 @@ class Project extends React.PureComponent {
         <div className="sub-title">Build in Luxury and Reliable</div>
         <div className="container">
           <Slider className="cover-flow" {...settings}>
-            {Array(10).fill(null).map(i =>
+            {Array(11).fill(null).map(i =>
               <div key={i}>
                 <div className="img" style={{ height: `${this.state.height}px` }} />
               </div>
