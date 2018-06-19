@@ -5,7 +5,7 @@ class Service extends React.PureComponent {
     return (
       <div id="service" className="block service-block">
         <div className="container">
-          <h2 className="title">What do we do?</h2>
+          <h2 className="title">Services</h2>
           <div className="row">
             <div className="col-md-4">
               <div className="partnerships sub-title">

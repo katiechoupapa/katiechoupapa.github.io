@@ -10,9 +10,8 @@ class About extends React.PureComponent {
               ABOUT SCHERACON
             </div>
             <div className="col-md-6 text padding">
-              <p>Designers, Registered Builders and for local + investors.</p>
-              <p>Property developers, Local and international Scheracon connects profitable investors to award winning and property developments in Australia</p>
-              <p>Property developers, Local and international Scheracon connects profitable investors to award winning and property .</p>
+              <p>Scheracon is a property developer in Australia, focused on the Victoria/ Tasmania market which
+specializes in commercial and residential properties.</p>
             </div>
           </div>
         </div>
@@ -23,7 +22,8 @@ class About extends React.PureComponent {
               </div>
               <div className="col-md-6">
                 <div className="title">Our Vision</div>
-                <div className="text">Property developers, Local and international Scheracon connects profitable investors to award winning and property developments in Australia</div>
+                <div className="text">We provide a platform for international investors to entry the Australia property developed business
+for positive investment returns and provide solutions further international relations.</div>
               </div>
             </div>
           </div>
