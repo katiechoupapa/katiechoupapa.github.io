@@ -9,10 +9,10 @@ class StAlbansVictoria extends React.Component {
             <div className="logo" />
             <div className="text">
               <div className="subject">
-                PROPOSED DEVELOPMENT
+                St. Albans Victoria
               </div>
               <div className="address">
-                23 Victoria Cresent St. Albans
+                Proposed Development
               </div>
             </div>
           </div>
@@ -21,11 +21,11 @@ class StAlbansVictoria extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="header">Total cost</div>
-              <div className="number">AUD 8,472,670.00</div>
+              <div className="number">About AUD 8,500,000.00</div>
             </div>
             <div className="col-md-4">
               <div className="header">End Value</div>
-              <div className="number">AUD 8,472,670.00</div>
+              <div className="number">About AUD 1,100,000.00</div>
             </div>
             <div className="col-md-4">
               <div className="header">Return</div>
