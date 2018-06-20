@@ -54,7 +54,7 @@ class Contact extends React.PureComponent {
               <header>We are accepting new projects</header>
               <section>Property developers, Local and international. Scheracon connects profitable investors to award winning and property developments in Australia.</section>
               <ul>
-                <li>Eddy Scheruga +61 450 542 834</li>
+                <li>Eddy Scheruga</li>
                 <li>+61 450 542 834</li>
                 <li>eddyscheruga@scheracon.com</li>
               </ul>
