@@ -9,20 +9,23 @@ class Service extends React.PureComponent {
           <div className="row">
             <div className="col-md-4">
               <div className="partnerships sub-title">
-                Partnerships
-                <a rel="noopener noreferrer" href="http://www.google.com" target="_blank" className="more">more</a>
+                <div className="subject">Joint Ventures</div>
+                <div className="detail-text">
+                  Scheracon can work together with investors, we work together with investors as stakeholder to develop business opportunity.
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="immigration-assistance sub-title">
-                Immigration Assistance
-                <a rel="noopener noreferrer" href="http://fb.com" target="_blank" className="more">more</a>
+                <div className="subject">Property Development</div>
+                <div className="detail-text">We source suitable property for development with profitable and value shareholder returns.</div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="property-development sub-title">
-                Property Development
-                <a rel="noopener noreferrer" href="http://tw.yahoo.com" target="_blank" className="more">more</a>
+                <div className="subject">Consultants</div>
+                <div className="detail-text">We provide the service to prospective investors for the best forms of entry into the potential
+opportunity that is more appropriate to their positive.</div>
               </div>
             </div>
           </div>

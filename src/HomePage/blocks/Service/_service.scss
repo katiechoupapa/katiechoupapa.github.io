@@ -6,7 +6,7 @@
     color: $skin-color;
   }
   .row > div {
-    div {
+    div:not(.detail-text) {
       font-size: 40px;
       line-height: 50px;
       height: 430px;
@@ -17,6 +17,9 @@
       color: #fff;
       position: relative;
       @include image;
+      .detail-text {
+        display: none;
+      }
       &.partnerships {
         background-image: url("./HomePage/blocks/Service/images/partnerships.png");
       }
@@ -30,19 +33,19 @@
         background-image: none;
         color: #fff;
         background-color: $skin-color;
-        .more {
-          display: inline-block;
+        .subject {
+          display: none;
         }
-      }
-      .more {
-        display: none;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, calc(-50% + 120px)) scale(.8);
-        &:hover {
-          background-color: #fff;
-          color: $skin-color;
+        .detail-text {
+          padding: 10px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 100%;
+          transform: translate(-50%, -50%);
+          display: inline-block;
+          font-size: 20px;
+          line-height: 30px;
         }
       }
     }
