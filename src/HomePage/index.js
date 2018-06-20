@@ -4,8 +4,9 @@ import { Parallax } from 'react-parallax';
 import {
   Home,
   About,
+  Vision,
   Service,
-  Project,
+  // Project,
   Proposed,
   Director,
   Guarantee,
@@ -24,10 +25,11 @@ class HomePage extends React.Component {
         <Home />
         <Parallax bgImage={BG1} />
         <About />
+        <Vision />
         <Parallax bgImage={BG2} />
         <Service />
         <Parallax bgImage={BG3} />
-        <Project />
+        {/* <Project /> */}
         <Proposed />
         <Parallax bgImage={BG4} />
         <Director />
