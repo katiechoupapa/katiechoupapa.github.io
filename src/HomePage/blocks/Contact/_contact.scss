@@ -28,18 +28,9 @@
     padding: 0;
     color: #fff;
     font-size: 25px;
-    line-height: 250%;
+    line-height: 150%;
     font-weight: lighter;
     font-family: 'Lato', sans-serif;
-    li:before {
-      content: '';
-      width: 42px;
-      height: 42px;
-      display: inline-block;
-      vertical-align: middle;
-      @include image;
-      margin-right: 25px;
-    }
     li.mobile:before {
       background-image: url("./HomePage/blocks/Contact/images/Icon_phone@2x.png");
     }
