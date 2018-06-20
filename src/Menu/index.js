@@ -16,7 +16,8 @@ class Menu extends React.PureComponent {
     });
   }
   directToHome = () => {
-    this.props.history.push("/");
+    if(this.props.history.location.pathname !== "/")
+      this.props.history.push("/");
   }
   render () {
     const event = { onMouseUp: this.directToHome };

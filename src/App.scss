@@ -17,6 +17,12 @@ html, body {
   overflow: hidden;
 }
 
+body.popup {
+  .bg-black.bg-black.bg-black {
+    display: block;
+  }
+}
+
 .wrapper {
   .title {
     font-size: 70px;

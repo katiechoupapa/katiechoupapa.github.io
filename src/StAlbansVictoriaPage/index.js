@@ -1,12 +1,26 @@
 import React from 'react';
 
 class StAlbansVictoria extends React.Component {
+  directToHomeContact = () => {
+    document.body.classList.remove('popup');
+    this.props.history.push("/");
+    setTimeout(() => {
+      document.documentElement.scrollTop = document.getElementById('contact').offsetTop;
+    });
+  }
+  showPopup = () => {
+    document.body.classList.add('popup');
+  }
+  closePopup = e => {
+    if(e.target === this.bg) {
+      document.body.classList.remove('popup');
+    }
+  }
   render () {
     return (
       <div className="at-albans-victoria-page">
         <div className="banner">
           <div className="container">
-            <div className="logo" />
             <div className="text">
               <div className="subject">
                 St. Albans Victoria
@@ -34,10 +48,19 @@ class StAlbansVictoria extends React.Component {
           </div>
         </div>
         <div className="block link-block">
+          <div className="bg-black" ref={elem => this.bg = elem} onClick={this.closePopup}>
+            <div className="popup">
+              <p>
+                Please to contact us to know details. <br/>
+                请联系我们了解更多细节
+              </p>
+              <a onClick={this.directToHomeContact}>Contact us</a>
+            </div>
+          </div>
           <ul>
-            <li><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=11a1xqGLSMBs1TibMgZJtEsbDhNxUKOXz" className="link">Financial Summary</a></li>
-            <li><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=12rlOpkAcTupV2gq5vlfup_zUtLDWwH1Z" className="link">Plans & Details</a></li>
-            <li><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1brXg3G0DQCvdogilNJIvRLDI66P1AZM1" className="link">中文版简报</a></li>
+            <li><a rel="noopener noreferrer" onClick={this.showPopup} className="link">Financial Summary</a></li>
+            <li><a rel="noopener noreferrer" onClick={this.showPopup} className="link">Plans & Details</a></li>
+            <li><a rel="noopener noreferrer" onClick={this.showPopup} className="link">中文版简报</a></li>
           </ul>
         </div>
       </div>
