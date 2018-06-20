@@ -21,12 +21,14 @@ class HomeBlock extends React.PureComponent {
             </div>
           )}
         </Slider>
-        <div className="logo" />
-        <ul className="slogan">
-          <li>Property</li>
-          <li>Development</li>
-          <li>Investment</li>
-        </ul>
+        <div className="logo-block">
+          <div className="logo" />
+          <ul className="slogan">
+            <li>Property</li>
+            <li>Development</li>
+            <li>Investment</li>
+          </ul>
+        </div>
       </div>
     );
   }
