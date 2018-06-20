@@ -45,8 +45,8 @@ class Contact extends React.PureComponent {
               Contact us
             </div>
             <div className="col-md-6 right">
-              <a href="#" target="_blank"><img src={fb} alt="fb" /></a>
-              <a href="#" target="_blank"><img src={wechat} alt="wechat" /></a>
+              <a rel="noopener noreferrer" href="https://fb.com" target="_blank"><img src={fb} alt="fb" /></a>
+              <a rel="noopener noreferrer" href="https://www.wechat.com/" target="_blank"><img src={wechat} alt="wechat" /></a>
             </div>
           </div>
           <div className="row">

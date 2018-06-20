@@ -10,19 +10,19 @@ class Service extends React.PureComponent {
             <div className="col-md-4">
               <div className="partnerships sub-title">
                 Partnerships
-                <a href="http://www.google.com" target="_blank" className="more">more</a>
+                <a rel="noopener noreferrer" href="http://www.google.com" target="_blank" className="more">more</a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="immigration-assistance sub-title">
                 Immigration Assistance
-                <a href="http://fb.com" target="_blank" className="more">more</a>
+                <a rel="noopener noreferrer" href="http://fb.com" target="_blank" className="more">more</a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="property-development sub-title">
                 Property Development
-                <a href="http://tw.yahoo.com" target="_blank" className="more">more</a>
+                <a rel="noopener noreferrer" href="http://tw.yahoo.com" target="_blank" className="more">more</a>
               </div>
             </div>
           </div>

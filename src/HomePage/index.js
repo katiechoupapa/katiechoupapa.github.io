@@ -1,9 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
 import {
-  Menu,
   Home,
   About,
   Service,
