@@ -26,7 +26,6 @@ class HomeBlock extends React.PureComponent {
           <li>Property</li>
           <li>Development</li>
           <li>Investment</li>
-          <li>Construction</li>
         </ul>
       </div>
     );
