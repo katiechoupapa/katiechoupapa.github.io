@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from "react-slick";
 
 class StAlbansVictoria extends React.Component {
   directToHomeContact = () => {
@@ -17,9 +18,25 @@ class StAlbansVictoria extends React.Component {
     }
   }
   render () {
+    const settings = {
+      speed: 500,
+      dots: true,
+      arrow: false,
+      infinite: true,
+      autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     return (
       <div className="at-albans-victoria-page">
         <div className="banner">
+          <Slider className="cover-flow" {...settings}>
+            {Array(4).fill(null).map(i =>
+              <div key={i}>
+                <div className="img" />
+              </div>
+            )}
+          </Slider>
           <div className="container">
             <div className="text">
               <div className="subject">
