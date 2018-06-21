@@ -1,11 +1,13 @@
 $image-list: (
-  "st_04.jpg",
-  "st_01.jpg",
-  "st_02.jpg",
-  "st_03.jpg",
+  "he_06.jpg",
+  "he_1.jpg",
+  "he_02.jpg",
+  "he_03.jpg",
+  "he_04.jpg",
+  "he_05.jpg",
 );
 
-.at-albans-victoria-page {
+.hawthorn-east-page {
   background-color: #000;
   .banner {
     height: calc(100vh - 114px);
@@ -26,7 +28,7 @@ $image-list: (
       @for $i from 1 through length($image-list) {
         div:nth-of-type(#{$i}) .img {
           @include image;
-          background-image: url('./StAlbansVictoriaPage/images/#{nth($image-list, $i)}');
+          background-image: url('./HawthornEastPage/images/#{nth($image-list, $i)}');
         }
       }
       .slick-dots {

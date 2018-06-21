@@ -1,21 +1,27 @@
 .proposed-block {
   padding: 95px 0 100px;
   background-color: $skin-color;
+  text-align: center;
   .sub-title {
     font-weight: bold;
     text-align: center;
     margin-bottom: 80px;
   }
   .img {
-    margin: 0 auto;
+    margin: 20px;
     width: 382px;
     height: 382px;
     border-radius: 100%;
-    background-image: url("./HomePage/blocks/Proposed/images/St Albans@2x.png");
-    @include image;
-    display: flex;
+    display: inline-block;
     position: relative;
     overflow: hidden;
+    @include image;
+    &.albans {
+      background-image: url("./HomePage/blocks/Proposed/images/St Albans@2x.png");
+    }
+    &.he {
+      background-image: url("./HomePage/blocks/Proposed/images/he_00.jpg");
+    }
     &:hover:before {
       content: "";
       display: block;
@@ -33,12 +39,12 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      .st {
+      .main-text {
         font-weight: bold;
         font-size: 40px;
         width: 100%;
       }
-      .area {
+      .sub-text {
         font-size: 30px;
         font-style: italic;
       }

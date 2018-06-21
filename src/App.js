@@ -7,6 +7,7 @@ import {
 
 import HomePage from './HomePage';
 import StAlbansVictoriaPage from './StAlbansVictoriaPage';
+import HawthornEastPage from './HawthornEastPage';
 import Menu from './Menu';
 
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/at-albans-victoria" component={StAlbansVictoriaPage} />
+            <Route exact path="/hawthorn-east" component={HawthornEastPage} />
           </Switch>
           <footer>
             ©2018 Scheracon Victoria, Australia
