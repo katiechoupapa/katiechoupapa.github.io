@@ -40,10 +40,10 @@ class HawthornEastPage extends React.Component {
           <div className="container">
             <div className="text">
               <div className="subject">
-                St. Albans Victoria
+                HAWTHORN EAST
               </div>
               <div className="address">
-                Proposed Development
+                BOUTIQUE PERMIT APPROVED
               </div>
             </div>
           </div>
