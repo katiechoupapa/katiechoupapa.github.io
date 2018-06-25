@@ -31,7 +31,7 @@ class HawthornEastPage extends React.Component {
       <div className="hawthorn-east-page">
         <div className="banner">
           <Slider className="cover-flow" {...settings}>
-            {Array(6).fill(null).map(i =>
+            {Array(5).fill(null).map(i =>
               <div key={i}>
                 <div className="img" />
               </div>
