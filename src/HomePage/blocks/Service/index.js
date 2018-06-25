@@ -16,13 +16,13 @@ class Service extends React.PureComponent {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="immigration-assistance sub-title">
+              <div className="property-development sub-title">
                 <div className="subject">Property Development</div>
                 <div className="detail-text">We source suitable property for development with profitable and value shareholder returns.</div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="property-development sub-title">
+              <div className="immigration-assistance sub-title">
                 <div className="subject">Consultants</div>
                 <div className="detail-text">We provide the service to prospective investors for the best forms of entry into the potential
 opportunity that is more appropriate to their positive.</div>
