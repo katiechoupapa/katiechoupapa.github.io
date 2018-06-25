@@ -26,7 +26,10 @@ $image-list: (
       }
     }
     .slick-dots {
-      bottom: 90px;
+      left: 50%;
+      top: calc(50% + 200px);
+      bottom: initial;
+      transform: translate(-50%, -50%);
       button:before {
         color: #fff;
         opacity: 1;
