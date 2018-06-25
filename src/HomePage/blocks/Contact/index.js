@@ -59,7 +59,7 @@ class Contact extends React.PureComponent {
                 <li>eddyscheruga@scheracon.com</li>
               </ul>
               <ul>
-                <li>蔡宜軒</li>
+                <li>小蔡</li>
                 <li>+61 406 711 777</li>
                 <li>eddytsai@scheracon.com</li>
               </ul>
