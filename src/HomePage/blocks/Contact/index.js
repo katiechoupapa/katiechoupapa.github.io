@@ -2,11 +2,12 @@ import React from 'react';
 import fb from './images/FB_icon@2x.png';
 import wechat from './images/Wechat_icon@2x.png';
 
+let fromEmail, toEmail;
+
 class Contact extends React.PureComponent {
 
   sendEmail = (e) => {
     e.preventDefault();
-
     if(!this.name.value.trim()) { alert('name required!'); return; }
     if(!this.email.value.trim()) { alert('email required!'); return; }
     if(!this.subject.value.trim()) { alert('subject required!'); return; }
@@ -14,12 +15,11 @@ class Contact extends React.PureComponent {
 
     const data = new URLSearchParams();
     for (const pair of new FormData(this.form)) {
-      console.warn(pair);
       data.append(pair[0], pair[1]);
     }
 
-    data.append("to", "katiechoustudio@gmail.com");
-    data.append("toName", "papa");
+    data.append("fromEmail", fromEmail);
+    data.append("toEmail", toEmail);
 
     fetch("https://sexyoung-test.000webhostapp.com/",
       {
@@ -35,6 +35,14 @@ class Contact extends React.PureComponent {
         this.message.value = "";
       });
   };
+
+  componentDidMount() {
+    fetch('/email.json')
+      .then(res => res.json())
+      .then(data => {
+        ({fromEmail, toEmail} = data);
+      });
+  }
 
   render () {
     return (
